@@ -11,6 +11,8 @@ Os conceitos de PLN utilizados foram:
     > Exemplo: As palavras durmo, dormiu, dormirá... seria lematizada para apenas dormir
     
 - **Stemização**: O termo stemização vem do inglês stemming, e representa o processo de reduzir palavras flexionadas ou derivadas a sua base. Neste processo a tarefa é transformar palavras próximas em uma só, como ficar apenas com o radical dos verbos ou transformar todos os substantivos para o singular.
+ > Por exemplo: As palavras dormir, dormiu, dormirá... seria stematizada para apenas dorm
+ 
 - **Vetorização - Bag of words**:O modelo bag-of-words é uma representação simplificadora usada no processamento de linguagem natural. Nesse modelo, um texto é representado como a bolsa  de suas palavras, desconsiderando a gramática e até mesmo a ordem das palavras.
  
 #### Bibliotecas de PLN utilizadas:
