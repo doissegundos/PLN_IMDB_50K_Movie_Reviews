@@ -34,11 +34,20 @@ A classificação é responsável por atribuir uma classe a um objeto de acordo 
 ### Métricas de avaliação
 
 As métricas de avaliação utilizadas são disponibilizadas por meio da biblioteca Sklearn do Python. As métricas utilizadas foram: Acurácia, recall, precisão, f1 score, kappa e matriz de confusão. Os resultados deste projeto podem ser analisados utilizando o notebook PLN.ipynb ou resultados.ipynb.
+<img src="imagens/1.png"  align="center"/>
 
 ### Visualização dos dados
 
 As bibliotecas Seaborn e Matplotlib do Python foi utilizada para visualização dos dados. Muitas análises dos dados foram realizadas, as que se destacaram mais foram:
 
 - Palavras que mais se repetem
+
+<img src="imagens/3.png"  align="center"/>
+
 - Tamanho das sentenças de acordo com o sentimento
+
+<img src="imagens/4.png"  align="center"/>
+
 - Nuvem de palavras
+
+<img src="imagens/2.png"  align="center"/>
