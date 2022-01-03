@@ -22,9 +22,21 @@ Os conceitos de PLN utilizados foram:
 A classificação é responsável por atribuir uma classe a um objeto de acordo com suas caracteristicas.Essa classificação pode ser binária (duas classes, 1 ou 0) ou multiclasse (três ou mais classes). Os modelos de classificação utilizado para classificar os sentimentos em negativo e positivo foram:
 
 - **Regressão Logistica**: A Regressão Logística  é comumente utilizada para estimar a probabilidade de uma instância pertencer a uma determinada classe. Aplica a função sigmoid. 
-- ** KNN**: O KNN realiza a classificação avaliando as caracteristicas dos K vizinhos mais próximos. 
+- **KNN**: O KNN realiza a classificação avaliando as caracteristicas dos K vizinhos mais próximos. 
 - **Naive Bayes**: O Naive Bayes é baseado na aplicação do teorema de Bayes com suposições de independência fortes entre as características.
 - **Arvores de decisão**: A árvore de decisões é uma técnica utilizada para Classificação e consiste em um mapa dos possíveis resultados de uma série de escolhas. Essas escolhas estão relacionadas a diversas decisões tomadas com base nas variáveis do banco de dados utilizado.
 - **Perceptron**: É uma rede neural de camada única e um Perceptron de várias camadas é chamado de Rede Neural Artificial. O Perceptron é um classificador linear (binário). Além disso, é usado na aprendizagem supervisionada e pode ser usado para classificar os dados de entrada fornecidos.
 - **Ensemble**: Tembém pode ser chamado de comite de classificação, uma vez que atribui uma classe a uma instancia de acordo com a votação de vários modelos de classificação.
 - **Bagging**: Realiza a votação de um conjunto de previsores mas cada previsor é composto do mesmo modelo de classificação. Os dados de treinamento são divididos em conjuntos aleatorios para cada previsor.
+
+### Métricas de avaliação
+
+As métricas de avaliação utilizadas são disponibilizadas por meio da biblioteca Sklearn do Python. As métricas utilizadas foram: Acurácia, recall, precisão, f1 score, kappa e matriz de confusão. Os resultados deste projeto podem ser analisados utilizando o notebook PLN.ipynb ou resultados.ipynb.
+
+### Visualização dos dados
+
+As bibliotecas Seaborn e Matplotlib do Python foi utilizada para visualização dos dados. Muitas análises dos dados foram realizadas, as que se destacaram mais foram:
+
+- Palavras que mais se repetem
+- Tamanho das sentenças de acordo com o sentimento
+- Nuvem de palavras
